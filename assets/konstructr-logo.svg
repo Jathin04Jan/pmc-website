@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72">
+  <defs>
+    <linearGradient id="kg" x1="10" y1="10" x2="62" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="wg" x1="84" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0369a1"/>
+      <stop offset=".5" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <!-- mark -->
+  <rect x="6" y="6" width="60" height="60" rx="15" fill="#0b1c33"/>
+  <path d="M6 26h60M6 46h60M26 6v60M46 6v60" stroke="#0ea5e9" stroke-opacity=".12" stroke-width="1"/>
+  <path d="M24 18v36" stroke="url(#kg)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M48 18 29 35M29 37 48 54" stroke="url(#kg)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="36" r="4.5" fill="#f59e0b" stroke="#0b1c33" stroke-width="1.5"/>
+  <!-- wordmark -->
+  <text x="84" y="44" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="30" font-weight="800" letter-spacing="3" fill="url(#wg)">KONSTRUCTR</text>
+  <text x="86" y="62" font-family="'SF Mono', Menlo, Consolas, monospace"
+        font-size="9" font-weight="700" letter-spacing="6" fill="#5b6b85">CONSTRUCTION OS</text>
+</svg>
